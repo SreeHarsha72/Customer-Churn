@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, I built an end-to-end machine learning pipeline to predict whether an e-commerce customer is likely to churn. The objective is to help businesses identify customers who are at risk of leaving so they can take proactive retention measures.
+In this project, I built an end-to-end data science pipeline to predict whether an e-commerce customer is likely to churn. The objective is to help businesses identify customers who are at risk of leaving so they can take proactive retention measures.
 
 I followed a complete data science workflow including data cleaning, exploratory data analysis (EDA), feature preprocessing, model building, evaluation, and business interpretation.
 
@@ -16,7 +16,7 @@ The goal of this project is to:
 - Provide business insights that can improve customer retention
 
 
-## Dataset
+## Dataset and Tools
 
 The dataset contains customer demographic information, purchasing behavior, account details, and service usage, along with a target variable indicating whether the customer has churned.
 
@@ -33,6 +33,9 @@ Features include:
 - Total spending
 
 Target variable: Churn (Yes / No)
+
+Tech Stack: Python, Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost
+Model functions: Pipeline, ColumnTransformer, OneHotEncoder, StandardScaler, SimpleImputer
 
 
 # Project Workflow
@@ -98,7 +101,7 @@ Random Forest is a powerful and reliable machine learning algorithm that capture
 
 XGBoost delivers excellent predictive performance by capturing complex relationships in structured data, though it requires more computational resources and careful hyperparameter tuning.
 
-# Model Evaluation
+## Model Evaluation
 
 I evaluated the models using several classification metrics.
 
@@ -113,19 +116,6 @@ Evaluation metrics include:
 Comparing multiple metrics provides a better understanding of model performance than relying on accuracy alone.
 
 
-# Technologies Used
-Python, Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost
-
-### Model Pipeline
-
-- Pipeline
-- ColumnTransformer
-- OneHotEncoder
-- StandardScaler
-- SimpleImputer
-
-
-
-# ✅ Conclusion
+# Conclusion
 
 In this project, I developed a complete customer churn prediction workflow, starting from raw data and ending with predictive models and business insights. By comparing multiple machine learning algorithms and following a structured pipeline, I gained practical experience in solving a real-world classification problem while building a solution that can support data-driven customer retention strategies.
