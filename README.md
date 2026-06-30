@@ -34,9 +34,9 @@ Features include:
 
 Target variable: Churn (Yes / No)
 
-Tech Stack: Python, Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost
+- Tech Stack: Python, Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost
 
-Model functions: Pipeline, ColumnTransformer, OneHotEncoder, StandardScaler, SimpleImputer
+- Model functions: Pipeline, ColumnTransformer, OneHotEncoder, StandardScaler, SimpleImputer
 
 
 # Project Workflow
